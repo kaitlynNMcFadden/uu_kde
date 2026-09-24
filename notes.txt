@@ -1,0 +1,15 @@
+Thurs (Last lab: simulation)
+-----
+question 5: 
+betas: good for when you want to manipulate numbers between 0 and 1
+    - consider a logistic regression, if you get a predicted negative value outside of 0-1 that does not make sense in context, this could happen
+    because some variables do not scale well/ some variables do not fit between 0 and 1
+
+question 6:
+- why do we multiply, so those values can never go negative --> this is why the model is built in this way
+- if you take the derivative of the value computed, it is its distribution --> this is essentially a prediction of when it will
+    cross a certain threshold, and with that threshold, you decide what you would do if it happens
+- the end simulation looks like a log normal (0 to inf and a stretched out normal)
+    - y  = log(x)
+    - x = e^y --> gets you back to normal
+
